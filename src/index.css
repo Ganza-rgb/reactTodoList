@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins",sans-serif;
+    color: rgb(66, 63, 63);
+}
+
+main{
+    padding: 30px 15px;
+    
+}
+
+.InputTodo{
+    text-align: center;
+}
+
+.InputTodo h2{
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.InputTodo input{
+    border: none;
+    width: 400px;
+    height: 50px;
+    border-radius: 5px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 0 20px;
+}
+
+.InputTodo button{
+    padding: 15px;
+    border-radius: 5px;
+    background-color: blueviolet;
+    border: none;
+    color: antiquewhite;
+    margin-left: 5px;
+}
+
+.todoContainer{
+    margin-top: 50px;
+}
+
+.todoItemContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.todoContainer .todoItem{
+    padding: 15px;
+    border-radius: 5px;
+    list-style-type: none;
+    width: 500px;
+    margin-bottom: 5px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.todoContainer .todoItem .fa-solid{
+    margin-left: 10px;
+    transition: all 0.15s;
+}
+
+.todoContainer .todoItem .fa-solid:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.todoContainer .todoItem .fa-trash-can{
+    color: brown;
+    font-size: 15px;
+}
+
+.todoContainer .todoItem .fa-pen-to-square{
+    color: rgb(69, 69, 212);
+    font-size: 15px;
+}
+
+.todoContainer .todoItem button{
+    border: none;
+    background-color: transparent;
+}
