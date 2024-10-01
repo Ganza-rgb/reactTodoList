@@ -3,7 +3,7 @@ import TodoInput from "./components/todoInput";
 import TodoList from "./components/todoList";
 
 export default function App() {
-  // State to manage the list of todos
+  // State to manage the list of todo
   const [todoList, setTodoList] = useState([]);
 
   // State to manage the current value of the todo input
