@@ -14,7 +14,7 @@ export default function App() {
     localStorage.setItem('todoList', JSON.stringify({ todoList: newList }));
   }
 
-  // Function to handle adding a new todo
+  // Function to handle adding a new todohsggs
   function handleTodo(newTodo) {
     const newTodoList = [...todoList, newTodo];
     persistData(newTodoList);
